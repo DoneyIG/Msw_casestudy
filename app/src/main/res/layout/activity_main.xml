@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SIGN UP"
+                android:textAlignment="center"
+                android:textSize="18pt"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:fontFamily="sans-serif-medium"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:id="@+id/studname"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/black_border"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:hint="Student Name"
+        android:drawableLeft="@drawable/baseline_perm_identity_24"
+        android:drawablePadding="10dp"/>
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:id="@+id/studid"
+                android:layout_marginLeft="30dp"
+                android:textColorHint="@color/black"
+                android:background="@drawable/black_border"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:hint="Student ID"
+                android:drawableLeft="@drawable/baseline_perm_identity_24"
+                android:drawablePadding="10dp"/>
+
+
+        <EditText
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:id="@+id/studpass"
+            android:textColorHint="@color/black"
+            android:layout_marginLeft="30dp"
+                android:background="@drawable/black_border"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:hint="MSW X Speccialization"
+                android:drawableLeft="@drawable/baseline_password_24"
+                android:drawablePadding="10dp"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/black_border"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:hint="Semester"
+        android:drawableLeft="@drawable/baseline_perm_identity_24"
+        android:drawablePadding="10dp"
+
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/black_border"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:hint="Year"
+        android:drawableLeft="@drawable/baseline_perm_identity_24"
+        android:drawablePadding="10dp"
+
+        />   <EditText
+    android:layout_width="350dp"
+    android:layout_height="60dp"
+    android:layout_marginLeft="30dp"
+    android:textColorHint="@color/black"
+    android:background="@drawable/black_border"
+    android:layout_marginTop="30dp"
+    android:padding="10dp"
+    android:hint="Student Email"
+    android:drawableLeft="@drawable/baseline_perm_identity_24"
+    android:drawablePadding="10dp"
+
+    />   <EditText
+    android:layout_width="350dp"
+    android:layout_height="60dp"
+    android:layout_marginLeft="30dp"
+    android:textColorHint="@color/black"
+    android:background="@drawable/black_border"
+    android:layout_marginTop="30dp"
+    android:padding="10dp"
+    android:hint="Student Contact Number"
+    android:drawableLeft="@drawable/baseline_phone_24"
+    android:drawablePadding="10dp"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/black_border"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:hint="Placement Agency Name"
+        android:drawableLeft="@drawable/baseline_perm_identity_24"
+        android:drawablePadding="10dp"
+
+        />
+    <EditText
+    android:layout_width="350dp"
+    android:layout_height="60dp"
+    android:layout_marginLeft="30dp"
+    android:background="@drawable/black_border"
+        android:textColorHint="@color/black"
+    android:layout_marginTop="30dp"
+    android:padding="10dp"
+    android:hint="Address"
+    android:drawableLeft="@drawable/baseline_perm_identity_24"
+    android:drawablePadding="10dp"
+
+    />
+    <EditText
+    android:layout_width="350dp"
+    android:layout_height="60dp"
+    android:layout_marginLeft="30dp"
+    android:background="@drawable/black_border"
+    android:layout_marginTop="30dp"
+        android:textColorHint="@color/black"
+    android:padding="10dp"
+    android:hint="Field Work Educator"
+    android:drawableLeft="@drawable/baseline_perm_identity_24"
+    android:drawablePadding="10dp"
+
+    />
+    <EditText
+    android:layout_width="350dp"
+    android:layout_height="60dp"
+    android:layout_marginLeft="30dp"
+    android:background="@drawable/black_border"
+    android:textColorHint="@color/black"
+    android:layout_marginTop="30dp"
+    android:padding="10dp"
+    android:hint="Field Work Coordinator"
+    android:drawableLeft="@drawable/baseline_perm_identity_24"
+    android:drawablePadding="10dp"
+
+    />
+
+    <EditText
+    android:layout_width="350dp"
+    android:layout_height="60dp"
+    android:layout_marginLeft="30dp"
+    android:background="@drawable/black_border"
+    android:layout_marginTop="30dp"
+    android:padding="10dp"
+    android:hint="Email ID"
+        android:textColorHint="@color/black"
+    android:drawableLeft="@drawable/baseline_perm_identity_24"
+    android:drawablePadding="10dp"
+
+    />
+
+      <Button
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:text="LOGIN"
+                android:id="@+id/loginbutton"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+\
+</ScrollView>
