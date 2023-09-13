@@ -17,7 +17,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="SIGN UP"
+                android:text="SIGN in"
                 android:textAlignment="center"
                 android:textSize="18pt"
                 android:textColor="@color/black"
