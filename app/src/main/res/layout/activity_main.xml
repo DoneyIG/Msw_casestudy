@@ -10,14 +10,14 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/blue"
+    android:background="@color/white"
     android:orientation="vertical"
     >
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="SIGN in"
+                android:text="SIGN UP"
                 android:textAlignment="center"
                 android:textSize="18pt"
                 android:textColor="@color/black"
